@@ -19,17 +19,17 @@ const portfolioProjects = [
             "Expand monitoring and validation around payment-provider callbacks and production order states.",
             "Improve image delivery and accessibility checks as the catalogue grows."
         ],
-        notice: "The README-listed glowivaa.cloud domain currently serves a TastyMeals page. The live link above uses the verified Glowiva GitHub Pages deployment instead."
+        notice: ""
     },
     {
         id: "tastymeals",
         name: "TastyMeals",
         image: "images/projects/tastymeals-preview.png",
-        imageAlt: "Illustrated preview of the TastyMeals food ordering platform",
+        imageAlt: "Screenshot preview of the TastyMeals food ordering platform",
         summary: "A food delivery and restaurant management platform with customer, merchant, and admin experiences.",
         stack: ["React", "Node.js", "Express", "MongoDB"],
         description: "TastyMeals brings restaurant discovery and ordering together with merchant tools and an admin dashboard. The project also includes rewards, promotions, customer support, diet planning, job listings, and food-waste tracking and donation workflows.",
-        liveUrl: "https://muhtasim4you.github.io/TastyMeals-AdvanceFoodDeliveryPlatform/",
+        liveUrl: "https://glowivaa.cloud",
         repositoryUrl: "https://github.com/muhtasim4you/TastyMeals-AdvanceFoodDeliveryPlatform",
         challenges: [
             "Coordinating customer, merchant, and administrator workflows across a large set of routes and features.",
@@ -47,7 +47,7 @@ const portfolioProjects = [
         id: "fit-log",
         name: "Fit-Log",
         image: "images/projects/fit-log-preview.png",
-        imageAlt: "Illustrated preview of the Fit-Log workout library and daily training plan",
+        imageAlt: "Screenshot preview of the Fit-Log workout library and daily training plan",
         summary: "A responsive workout library and training log for finding exercises and planning a daily session.",
         stack: ["Next.js", "React", "Tailwind CSS"],
         description: "Fit-Log lets users browse and search a workout library, view exercise instructions, and build a daily plan of up to five lifts. Users can save exercises and track completed work; plan selections are stored locally in the browser.",
