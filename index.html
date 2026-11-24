@@ -4,209 +4,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Developer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Gazi Md. Muhtasim Rashid, software developer and Computer Science student at BRAC University.">
+    <title>Gazi Md. Muhtasim Rashid | Software Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
     <script src="https://kit.fontawesome.com/2b84405bfb.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="open-sans-normal">
-    <header class="header secondary-bg">
-        <nav>
-            <h3 class="nav-title">Muh<span class="text-primary">tasim</span></h3>
-            <ul>
-                <li><a href="#about" class="dark-2 line">About</a></li>
-                <li><a href="#connect" class="dark-2 line">Connect</a></li>
-            </ul>
-            <button class="btn-primary" onclick="window.location.href='resume.pdf'">
-                Hire Me
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="nav-title" href="#home" aria-label="Muhtasim, home">Muh<span class="text-primary">tasim</span></a>
+            <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
             </button>
-        </nav>
-        <div class="banner">
-            <div class="banner-content">
-                <h4 class="banner-gretings dark-2">Hi, I am </h4>
-                <h3 class="name">Gazi Md.</h3>
-                <h1 class="banner-title">Muhtasim Rashid</h1>
-                <p class="banner-description">A <b>Software Developer</b> with a genuine knowledge of this
-                    developing world.</p>
-                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
-                <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact Me</button>
+            <div class="nav-menu" id="primary-navigation">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a class="btn-primary nav-cta"
+                    href="muhtasim_resume_updated.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
             </div>
-            <img class="banner-profile-pic" src="images/muhtasim.png" alt="">
-        </div>
+        </nav>
+        <section class="banner" id="home" aria-labelledby="hero-title">
+            <div class="banner-content">
+                <p class="banner-greetings">Hello, I’m</p>
+                <h1 class="banner-title" id="hero-title">Gazi Md.<br>Muhtasim Rashid</h1>
+                <p class="designation">Full-Stack Software Developer</p>
+                <p class="banner-description">Computer Science student at BRAC University, building thoughtful web
+                    experiences with modern frontend and backend technologies.</p>
+                <div class="hero-actions">
+                    <a class="btn-primary" href="muhtasim_resume_updated.pdf" download="Gazi-Md-Muhtasim-Rashid-Resume.pdf">
+                        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> View / Download Resume
+                    </a>
+                    <a class="btn-secondary" href="#contact">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact Me
+                    </a>
+                </div>
+                <div class="social-links hero-socials" aria-label="Social profiles">
+                    <a href="https://github.com/muhtasim4you" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/gazi-md-muhtasim-rashid/" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/Muhtasimrashid" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook profile"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <img class="banner-profile-pic" src="images/muhtasim.png" alt="Portrait of Gazi Md. Muhtasim Rashid">
+        </section>
     </header>
+
     <main>
-        <section id="about" class="about secondary-bg">
-            <h2 class="section-title">About Me</h2>
-            <p class="section-description">I am a designer & developer with a passion for web design. I enjoy developing
-                simple, clean and slick websites that provide real value to the end user. Thousands of clients have
-                procured exceptional resulfs while working with me. Delivering work within time and budget which meets
-                clients requirements in our mata.</p>
+        <section class="about section-panel" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">A little about me</p>
+                <h2 class="section-title">Curious by nature, developer by choice.</h2>
+            </div>
+            <p class="section-description">
+                I’m a Computer Science student at BRAC University with a growing focus on software and web
+                development. My journey brings together university study and hands-on projects—from interactive
+                workout tools to full-stack shopping and food platforms. I enjoy turning broad ideas into useful,
+                well-organized experiences, and exploring how frontend interfaces, APIs, and data fit together.
+                I’m motivated by learning through building, solving practical problems, and making each project a
+                little clearer and more polished than the last. Outside the code itself, I’m interested in fitness
+                and practical tools for everyday wellbeing; that curiosity also shaped Fit-Log.
+            </p>
             <div class="about-items">
                 <div class="about-item">
                     <p class="item-title">Name</p>
-                    <p class="item-description">Gazi Md Muhtasim Rashid</p>
+                    <p class="item-description">Gazi Md. Muhtasim Rashid</p>
                 </div>
                 <div class="about-item">
                     <p class="item-title">Email</p>
-                    <p class="item-description">muhtasim425@gmail.com</p>
+                    <p class="item-description"><a href="mailto:muhtasim425@gmail.com">muhtasim425@gmail.com</a></p>
                 </div>
                 <div class="about-item">
-                    <p class="item-title">Date of Birth</p>
-                    <p class="item-description">Sep 29,2002</p>
+                    <p class="item-title">Based in</p>
+                    <p class="item-description">Mirpur, Dhaka, Bangladesh</p>
                 </div>
                 <div class="about-item">
-                    <p class="item-title">From</p>
-                    <p class="item-description">Mirpur,Dhaka,Bangladesh</p>
+                    <p class="item-title">Phone</p>
+                    <p class="item-description"><a href="tel:+8801314893055">+880 1314-893055</a></p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">WhatsApp</p>
+                    <p class="item-description"><a href="https://wa.me/8801314893055" target="_blank"
+                            rel="noopener noreferrer">Message on WhatsApp</a></p>
                 </div>
             </div>
         </section>
-        <section class="skills">
-            <h3 class="section-title text-center">What I can do</h3>
-            <p class="section-description text-center">I have more than 2 years of experience building software for
-                clients all over the world. Below is a quick overview of my main technical skill sets and technologies i
-                use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+
+        <section class="skills" id="skills">
+            <div class="section-heading section-heading-centered">
+                <p class="eyebrow">What I work with</p>
+                <h2 class="section-title">Skills &amp; technologies</h2>
+                <p class="section-description">A growing toolkit for building and connecting modern web applications.</p>
+            </div>
             <div class="skills-container">
-                <div class="skill">
-                    <img src="images/icons/js.png" alt="">
-                    <h4 class="skill-title">JavaScript</h4>
-                    <p class="skill-description">A versatile programming language used to build interactive and dynamic
-                        web applications. It runs in the browser and on the server, enabling features like real-time
-                        updates, form validation, and animations. Strong understanding of ES6+ concepts, asynchronous
-                        programming, and DOM manipulation.</p>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/react.png" alt="">
-                    <h4 class="skill-title">React</h4>
-                    <p class="skill-description">A popular front-end library for building fast and scalable user
-                        interfaces. Uses a component-based architecture to create reusable UI elements and manage
-                        application state efficiently. Experienced with hooks, props, and modern React practices.</p>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/nodejs.png" alt="">
-                    <h4 class="skill-title">Node.js</h4>
-                    <p class="skill-description">A server-side runtime environment that allows building fast and
-                        scalable backend applications using JavaScript. Commonly used for APIs, real-time apps, and
-                        microservices. Familiar with Express.js, RESTful APIs, and handling asynchronous operations.</p>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/mongo.png" alt="">
-                    <h4 class="skill-title">MongoDB</h4>
-                    <p class="skill-description">A NoSQL database used for storing and managing large volumes of
-                        unstructured data. Works well with modern web applications due to its flexible schema and
-                        JSON-like format. Experienced in database design, CRUD operations, and integration with Node.js.
-                    </p>
-                </div>
+                <article class="skill">
+                    <div class="skill-icon"><img src="images/icons/react.png" alt=""></div>
+                    <p class="skill-category">Frontend</p>
+                    <h3 class="skill-title">React</h3>
+                    <p class="skill-description">Component-driven interfaces and interactive user experiences.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><img src="images/icons/js.png" alt=""></div>
+                    <p class="skill-category">Frontend</p>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-description">Dynamic application behavior, browser features, and API integration.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><img src="images/icons/nodejs.png" alt=""></div>
+                    <p class="skill-category">Backend</p>
+                    <h3 class="skill-title">Node.js</h3>
+                    <p class="skill-description">Server-side JavaScript and backend services for web applications.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><img src="images/icons/mongo.png" alt=""></div>
+                    <p class="skill-category">Database</p>
+                    <h3 class="skill-title">MongoDB</h3>
+                    <p class="skill-description">Document-based data storage for full-stack application features.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i></div>
+                    <p class="skill-category">Mobile</p>
+                    <h3 class="skill-title">Flutter</h3>
+                    <p class="skill-description">Cross-platform mobile interfaces, CRUD flows, maps, geolocation, and device features.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><i class="fa-solid fa-arrows-turn-to-dots" aria-hidden="true"></i></div>
+                    <p class="skill-category">Backend</p>
+                    <h3 class="skill-title">REST APIs</h3>
+                    <p class="skill-description">JWT authentication, protected routes, validation, and API-backed application features.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></div>
+                    <p class="skill-category">Frontend</p>
+                    <h3 class="skill-title">Responsive UI</h3>
+                    <p class="skill-description">Accessible HTML, CSS, Tailwind CSS, and responsive layouts across screen sizes.</p>
+                </article>
+                <article class="skill">
+                    <div class="skill-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+                    <p class="skill-category">Tools</p>
+                    <h3 class="skill-title">Git &amp; GitHub</h3>
+                    <p class="skill-description">Version control, GitHub Actions, npm, VS Code, and deployment workflows.</p>
+                </article>
             </div>
         </section>
-        <section class="resume">
-            <h3 class="section-title text-center">A summary of My Resume</h3>
+
+        <section class="resume" id="education">
+            <div class="section-heading section-heading-centered">
+                <p class="eyebrow">The path so far</p>
+                <h2 class="section-title">Education &amp; experience</h2>
+            </div>
             <div class="resume-container">
                 <div class="resume-column">
-                    <h3 class="resume-column-title">My Education</h3>
-                    <div class="experience">
-                        <h4 class="experience-title">BSc. in Computer Science</h4>
-                        <h5 class="experience-sub-title">Brac University / 2022 - 2027</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="experience">
+                    <h3 class="resume-column-title"><i class="fa-solid fa-graduation-cap"
+                            aria-hidden="true"></i> Education</h3>
+                    <article class="timeline-item">
+                        <h4 class="experience-title">BSc. in Computer Science and Engineering</h4>
+                        <p class="experience-sub-title">BRAC University <span>/</span> 2022–Present</p>
+                        <p class="experience-description">Undergraduate studies in computer science.</p>
+                    </article>
+                    <article class="timeline-item">
                         <h4 class="experience-title">HSC in Science</h4>
-                        <h5 class="experience-sub-title">Monipur High School & College / 2018 - 2020</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="experience">
+                        <p class="experience-sub-title">Monipur High School &amp; College <span>/</span> 2018–2020</p>
+                    </article>
+                    <article class="timeline-item">
                         <h4 class="experience-title">SSC in Science</h4>
-                        <h5 class="experience-sub-title">Monipur High School & College / 2010 - 2018</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </div>
-                    </div>
+                        <p class="experience-sub-title">Monipur High School &amp; College <span>/</span> 2010–2018</p>
+                    </article>
                 </div>
-                <div class="resume-column">
-                    <h3 class="resume-column-title">My Experience</h3>
-                    <div class="experience">
-                        <h4 class="experience-title">Jr. Front End Developer</h4>
-                        <h5 class="experience-sub-title">Programming Hero / 2026 - Current</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="experience">
-                        <h4 class="experience-title">Jr. Back End Developer</h4>
-                        <h5 class="experience-sub-title"> Fiverr / 2025 - 2026</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="experience">
-                        <h4 class="experience-title">HTML Developer</h4>
-                        <h5 class="experience-sub-title">Upwork / 2024 - 2025</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
-                        </div>
-                    </div>
+                <div class="resume-column" id="experience">
+                    <h3 class="resume-column-title"><i class="fa-solid fa-briefcase"
+                            aria-hidden="true"></i> Experience</h3>
+                    <article class="timeline-item">
+                        <h4 class="experience-title">Full-Stack Software Developer</h4>
+                        <p class="experience-sub-title">Project-Based Development <span>/</span> Apr. 2026–Present</p>
+                        <p class="experience-description">Building production-style React, Node.js, Express, and MongoDB applications with secure authentication, REST APIs, payments, dashboards, uploads, maps, and responsive interfaces.</p>
+                    </article>
                 </div>
-            </div>
-            <div class="resume-download-cv">
-                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
             </div>
         </section>
-        <section class="availability">
-            <h3 class="section-title text-center">Available for</h3>
-            <ul class="position">
-                <li><i class="fa-solid fa-star"></i> Front-End Position</li>
-                <li><i class="fa-solid fa-star"></i> Back-End Position</li>
-                <li><i class="fa-solid fa-star"></i> Full-Stack Position</li>
-            </ul>
 
+        <section class="projects-section" id="projects">
+            <div class="section-heading section-heading-centered">
+                <p class="eyebrow">Selected work</p>
+                <h2 class="section-title">Projects I’ve built</h2>
+                <p class="section-description">A closer look at products, features, and the technology behind them.</p>
+            </div>
+            <div class="projects-container" id="project-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div>
+                <p class="eyebrow">Let’s talk</p>
+                <h2 class="section-title">Have a project in mind?</h2>
+                <p class="contact-copy">For opportunities, questions, or a conversation about my work, send me an email.</p>
+            </div>
+            <a class="btn-primary contact-button" href="mailto:muhtasim425@gmail.com">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Email Muhtasim
+            </a>
+            <a class="contact-email" href="mailto:muhtasim425@gmail.com">muhtasim425@gmail.com</a>
+            <a class="contact-phone" href="tel:+8801314893055">+880 1314-893055</a>
+            <a class="contact-phone" href="https://wa.me/8801314893055" target="_blank" rel="noopener noreferrer">WhatsApp: +880 1314-893055</a>
         </section>
     </main>
-    <footer id="connect" class="secondary-bg">
-        <div class="footer-column">
-            <h3 class="section-title">Lets Connect</h3>
-            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ,
-                Monday through Friday.</p>
-            <div>
-                <a href="https://www.facebook.com/Muhtasimrashid"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://github.com/muhtasim4you"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/gazi-md-muhtasim-rashid/"><i class="fa-brands fa-linkedin"></i></a>
-                <div>
-                    <h3>For knowing more updates</h3>
-                    <p>Visit the <a class="line" href="https://www.bracu.ac.bd/">Brac University</a> website or <a
-                            class="line" href="https://discord.gg/">CSE391 Course</a>.</p>
-                </div>
-            </div>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="#home">Muh<span class="text-primary">tasim</span></a>
+        <div class="social-links" aria-label="Social profiles">
+            <a href="https://github.com/muhtasim4you" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/gazi-md-muhtasim-rashid/" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/Muhtasimrashid" target="_blank" rel="noopener noreferrer"
+                aria-label="Facebook profile"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
         </div>
-        <div class="footer-column">
-            <h3 class="section-title">Let’s Message me</h3>
-            <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea cols="30" rows="20" placeholder="Message Here"></textarea>
-                <button class="btn-primary" type="submit">Submit</button>
-            </form>
-        </div>
+        <p class="copyright">&copy; <span id="current-year"></span> Gazi Md. Muhtasim Rashid. All rights reserved.</p>
     </footer>
-    <div class="page-info">
-        <p class="copyright">&copy; <span id="current-year"></span> Gazi Md Muhtasim Rashid. All rights reserved.</p>
-        <p>Page location: <span id="page-location"></span></p>
-        <p>Last modified: <span id="last-modified"></span></p>
-    </div>
+    <script src="scripts/projects.js"></script>
     <script>
         document.getElementById("current-year").textContent = new Date().getFullYear();
-        document.getElementById("page-location").textContent = "https://muhtasim4you.github.io/WevDeveloper-Portfolio/";
-        document.getElementById("last-modified").textContent = document.lastModified;
+
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.getElementById("primary-navigation");
+        menuToggle.addEventListener("click", function () {
+            const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+            menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+            navMenu.classList.toggle("is-open", !isExpanded);
+        });
+
+        navMenu.addEventListener("click", function (event) {
+            if (event.target.closest("a")) {
+                menuToggle.setAttribute("aria-expanded", "false");
+                navMenu.classList.remove("is-open");
+            }
+        });
     </script>
 </body>
 

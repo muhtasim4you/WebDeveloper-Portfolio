@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570" role="img" aria-labelledby="title description">
+  <title id="title">Glowiva store preview</title>
+  <desc id="description">A soft pink storefront illustration with skincare bottles and a product catalogue.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8e6e5"/>
+      <stop offset="1" stop-color="#f5d6c6"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8cfb3"/>
+      <stop offset="1" stop-color="#d88770"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="570" fill="url(#background)"/>
+  <circle cx="850" cy="84" r="152" fill="#fff8f1" opacity=".54"/>
+  <rect x="74" y="58" width="852" height="454" rx="22" fill="#fffdfb"/>
+  <rect x="74" y="58" width="852" height="51" rx="22" fill="#fff"/>
+  <path d="M74 88h852v21H74z" fill="#fff"/>
+  <circle cx="103" cy="83" r="7" fill="#d98978"/>
+  <text x="129" y="90" fill="#5c3032" font-family="Arial,sans-serif" font-size="24" font-weight="700">glowiva</text>
+  <text x="690" y="87" fill="#7c6a69" font-family="Arial,sans-serif" font-size="13">SKINCARE  ·  BRANDS  ·  OFFERS</text>
+  <rect x="103" y="134" width="794" height="167" rx="15" fill="#f7e9e3"/>
+  <text x="137" y="183" fill="#784c48" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">CARE THAT FEELS LIKE YOU</text>
+  <text x="137" y="229" fill="#3e3030" font-family="Georgia,serif" font-size="35">Find your everyday glow.</text>
+  <text x="137" y="258" fill="#836f6b" font-family="Arial,sans-serif" font-size="15">Thoughtful skincare, from trusted brands.</text>
+  <rect x="137" y="272" width="121" height="13" rx="6" fill="#bb6558"/>
+  <rect x="695" y="160" width="74" height="111" rx="20" fill="url(#bottle)"/>
+  <rect x="716" y="146" width="32" height="20" rx="4" fill="#9d6555"/>
+  <rect x="792" y="180" width="57" height="91" rx="17" fill="#d7a47f"/>
+  <rect x="807" y="165" width="28" height="20" rx="5" fill="#795953"/>
+  <rect x="105" y="325" width="190" height="152" rx="12" fill="#fbf4ef"/>
+  <rect x="319" y="325" width="190" height="152" rx="12" fill="#f7ece7"/>
+  <rect x="533" y="325" width="170" height="152" rx="12" fill="#faf2ec"/>
+  <rect x="727" y="325" width="170" height="152" rx="12" fill="#f6e9e3"/>
+  <rect x="167" y="348" width="66" height="74" rx="17" fill="#d9957f"/>
+  <rect x="188" y="338" width="24" height="15" rx="4" fill="#755552"/>
+  <rect x="373" y="351" width="77" height="71" rx="14" fill="#d5aa8b"/>
+  <rect x="398" y="339" width="27" height="16" rx="4" fill="#89645a"/>
+  <rect x="584" y="355" width="68" height="67" rx="14" fill="#e0b4a1"/>
+  <rect x="604" y="343" width="28" height="16" rx="4" fill="#8d6156"/>
+  <rect x="778" y="352" width="69" height="70" rx="15" fill="#c78172"/>
+  <rect x="798" y="341" width="28" height="15" rx="4" fill="#73534f"/>
+  <text x="145" y="448" fill="#695756" font-family="Arial,sans-serif" font-size="13">Daily essentials</text>
+  <text x="367" y="448" fill="#695756" font-family="Arial,sans-serif" font-size="13">Hydration</text>
+  <text x="579" y="448" fill="#695756" font-family="Arial,sans-serif" font-size="13">Gentle care</text>
+  <text x="778" y="448" fill="#695756" font-family="Arial,sans-serif" font-size="13">Best sellers</text>
+</svg>
